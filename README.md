@@ -56,5 +56,5 @@ A very lightweight JavaScript feature detection library for web game developers
 
 ## LICENSE
 
-MIT
+[MIT](LICENSE)
 

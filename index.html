@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>navigator.gameSupport</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <style type="text/css">
+            body {
+                margin: 2em;
+            }
+        </style>
+        <script src="gamesupport.js"></script>
+    </head>
+    <body>
+        <h1>navigator.gameSupport</h1>
+        <p><code>gamesupport.js &gt; navigator.gameSupport</code></p>
+        <pre id="output"></pre>
+
+        <script>
+            var gameSupport = JSON.stringify(navigator.gameSupport, null, 4);
+            console.log(gameSupport);
+            document.getElementById('output').innerHTML = gameSupport;
+        </script>
+    </body>
+</html>
+
